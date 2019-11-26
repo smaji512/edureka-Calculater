@@ -1,3 +1,4 @@
+
 package calculator;
 
 import java.util.Scanner;
@@ -20,16 +21,16 @@ public class Main {
 
 		System.out.println("Select methods: ");
 
-		System.out.println("1 : +");
+	/*	System.out.println("1 : +");
 		System.out.println("2 : /");
 		System.out.println("3 : *");
 		System.out.println("4 : -");
-
+*/
 		int choice = sc.nextInt();
 
 		switch (choice) {
 
-		case 1:
+	/*	case 1:
 			System.out.println(cm.Addition(first, second));
 			break;
 
@@ -44,7 +45,7 @@ public class Main {
 		case 4:
 			System.out.println(cm.Subtraction(first, second));
 			break;
-		}
+	*/	}
 		}
 
 	}
