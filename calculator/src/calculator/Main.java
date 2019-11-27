@@ -23,9 +23,15 @@ public class Main {
 
 	/*	System.out.println("1 : +");
 		System.out.println("2 : /");
+<<<<<<< HEAD
 		System.out.println("3 : *");
 	*/	System.out.println("4 : -");
 
+=======
+	*/	System.out.println("3 : *");
+	/*	System.out.println("4 : -");
+*/
+>>>>>>> mul
 		int choice = sc.nextInt();
 
 		switch (choice) {
@@ -42,7 +48,7 @@ public class Main {
 			System.out.println(cm.Multipication(first, second));
 			break;
 
-		case 4:
+	/*	case 4:
 			System.out.println(cm.Subtraction(first, second));
 			break;
 		}
